@@ -1,6 +1,6 @@
 do
-	local RANGE             = 10
-	local DUMMY             = FourCC('wolg')
+	local RANGE             = 10 -- Расстояние, на котором проходит проверка
+	local DUMMY             = FourCC('wolg') -- Ид предмета для проверки проходимости
 	
 	local rect---@type rect
 	local item ---@type item
